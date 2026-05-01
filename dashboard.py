@@ -31,15 +31,12 @@ while True:
 
                 with placeholder.container():
 
-                    # =====================
-                    # TABLA
-                    # =====================
+                  
+                    
                     st.subheader("📋 Datos en tiempo real")
                     st.dataframe(df.tail(20))
 
-                    # =====================
-                    # MÉTRICAS
-                    # =====================
+                   
                     col1, col2 = st.columns(2)
 
                     temp_df = df[df["tipo"] == "temperatura"]
@@ -51,9 +48,6 @@ while True:
                     if not pres_df.empty:
                         col2.metric("🧭 Presión Promedio", round(pres_df["valor"].mean(), 2))
 
-                    # =====================
-                    # GRÁFICAS
-                    # =====================
                     if not temp_df.empty:
                         st.subheader("🌡️ Temperatura")
                         st.line_chart(temp_df["valor"])
@@ -62,9 +56,7 @@ while True:
                         st.subheader("🧭 Presión")
                         st.line_chart(pres_df["valor"])
 
-                    # =====================
-                    # ALERTAS PRO
-                    # =====================
+                   
                     st.subheader("🚨 Alertas")
 
                     df["alerta"] = None

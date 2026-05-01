@@ -1,0 +1,7 @@
+{"sensor_id":"temp_2","tipo":"temperatura","valor":17.59,"timestamp":1777569680,"event_time":"2026-04-30T12:21:20.000-05:00"}
+{"sensor_id":"pres_3","tipo":"presion","valor":910.37,"timestamp":1777569681,"event_time":"2026-04-30T12:21:21.000-05:00"}
+{"sensor_id":"temp_3","tipo":"temperatura","valor":31.8,"timestamp":1777569681,"event_time":"2026-04-30T12:21:21.000-05:00"}
+{"sensor_id":"temp_1","tipo":"temperatura","valor":31.1,"timestamp":1777569682,"event_time":"2026-04-30T12:21:22.000-05:00"}
+{"sensor_id":"pres_1","tipo":"presion","valor":958.63,"timestamp":1777569683,"event_time":"2026-04-30T12:21:23.000-05:00"}
+{"sensor_id":"temp_2","tipo":"temperatura","valor":46.2,"timestamp":1777569683,"event_time":"2026-04-30T12:21:23.000-05:00"}
+{"sensor_id":"temp_2","tipo":"temperatura","valor":98.55,"timestamp":1777569684,"event_time":"2026-04-30T12:21:24.000-05:00"}
